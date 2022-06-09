@@ -1,0 +1,77 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1C1C1C;
+}
+
+.App {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizzical-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 32px;
+    padding: 24px;
+    max-width: 768px;
+    background-color: #F5F7FB;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.start {
+    width: 768px;
+    height: 640px;
+}
+
+.quizzical-start-content  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.quizzical-start-content > *:not(:first-child) {
+    margin-top: 24px;
+}
+
+.quizzical-title {
+    font-size: 40px;
+    color: #293264;
+}
+
+.quizzical-description {
+    font-size: 20px;
+    font-weight: 400;
+    color: #293264;
+}
+
+.quizzical-button {
+    padding: 18px 46px;
+    background-color: #4D5B9E;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.quizzical-button:hover {
+    background-color: #2c42b3;
+}
+
+.quizzical-button:active {
+    background-color: #1630b3;
+}
+
+@media only screen and (max-width: 550px) {
+    
+}

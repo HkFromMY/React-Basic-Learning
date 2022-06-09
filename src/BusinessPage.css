@@ -1,0 +1,9 @@
+.business-card-page {
+    max-width: 750px;
+    height: 100%;
+    background-color: #23252C;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

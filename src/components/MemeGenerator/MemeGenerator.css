@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+.generator--content {
+    max-width: 750px;
+    margin: 30px auto;
+}

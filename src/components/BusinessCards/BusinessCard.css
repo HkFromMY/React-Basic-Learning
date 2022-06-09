@@ -1,0 +1,129 @@
+* {
+    font-family: Inter;
+}
+
+.business-card {
+    max-width: 450px;
+    margin: auto;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.business-bg {
+    background-color: #1A1B21;
+}
+
+.business-img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.business-basic-info {
+    text-align: center;
+}
+
+.business-name {
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: bold;
+    margin-bottom: 4px;
+}
+
+.business-job-title {
+    color: #F3BF99;
+    font-size: 12px;
+    font-weight: 400;
+    margin: 0;
+}
+
+.business-website {
+    color: #F5F5F5;
+    font-size: 10px;
+    font-weight: 400;
+}
+
+.business-buttons {
+    width: 75%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.business-buttons > * {
+    padding: 0.6rem 2rem;
+    border: none;
+    border-radius: 6px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+}
+
+#email-button {
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#linkedin-button {
+    background-color: #5093E2;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#email-button:hover,
+#linkedin-button:hover {
+    opacity: .8;
+}
+
+#email-button > *, 
+#linkedin-button > * {
+    padding: 0 6px;
+}
+
+.business-description {
+    color: white;
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+}
+
+.business-about > h3, 
+.business-interests > h3 {
+    font-size: 18px;
+}
+
+.business-about > p, 
+.business-interests > p {
+    font-size: 12px;
+    line-height: 1.6;
+}
+
+.social-icons-bg {
+    width: 100%;
+    background-color: #161619;
+    border-radius: 0 0 20px 20px;
+}
+
+.social-icons {
+    width: 50%;
+    margin: auto;
+    padding: 1rem 0;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icons > * {
+    cursor: pointer;
+}
+
+.social-icons > *:hover {
+    opacity: .80;
+}

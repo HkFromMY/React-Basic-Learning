@@ -1,0 +1,12 @@
+.travel-journal-page {
+    font-family: Inter;
+}
+
+.cards-list {
+    max-width: 850px;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 60px;
+}

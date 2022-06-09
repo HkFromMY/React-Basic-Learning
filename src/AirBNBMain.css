@@ -1,0 +1,10 @@
+* {
+    box-sizing: border-box;
+}
+
+.main-page {
+    max-width: 550px;
+    margin: 1rem auto;
+    font-family: Inter;
+    overflow-x: hidden;
+}

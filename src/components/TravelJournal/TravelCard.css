@@ -1,0 +1,80 @@
+.travel-card {
+    display: flex;
+    align-items: center;
+}
+
+.travel--img-container {
+    padding: 0 20px;
+    flex-basis: 35%;
+    align-self: stretch;
+}
+
+.travel--img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.travel--info {
+    flex-basis: 65%;
+    padding-left: 20px;
+}
+
+.travel--country,
+.travel--map-link {
+    padding-left: 7px;
+    font-size: 16px;
+}
+
+.travel--country {
+    text-transform: uppercase;
+    letter-spacing: 0.17em;
+}
+
+.travel--map-link {
+    font-weight: 400;
+    line-height: 12px;
+    text-decoration-line: underline;
+    color: #918E9B;
+}
+
+.travel--map-link:hover {
+    color: #46494f;
+}
+
+.travel--spot {
+    margin-top: 12px;
+    margin-bottom: 24px;
+}
+
+.travel--date {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.travel--description {
+    line-height: 150%;
+}
+
+@media only screen and (max-width: 500px) {
+    /* if screen is 500px and smaller */
+
+    .travel-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .travel--info {
+        padding: 0;
+        margin-top: 10px;
+        text-align: center;
+    }
+
+    .travel--description {
+        padding: 5px;
+    }
+
+}
